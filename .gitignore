@@ -74,9 +74,6 @@ dmypy.json
 # Pyre
 .pyre/
 
-# uv
-uv.lock
-
 # OS
 Thumbs.db
 ehthumbs.db
