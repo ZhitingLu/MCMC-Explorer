@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.tar.gz
+*.zip
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.*.local
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbsync
+# Uncomment if you want to strip outputs before committing
+# *.ipynb
+
+# Data files
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+data/
+raw_data/
+processed_data/
+
+# Results (optional - uncomment if you want to keep results out of git)
+# results/
+# !results/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+.tox/
+.coverage.xml
+*.cover
+*.log
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Pyre
+.pyre/
+
+# uv
+uv.lock
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Debugging
+*.log
+*.tmp
+*.temp
+
+# Project specific
+results/figures/
+results/benchmark_data/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
