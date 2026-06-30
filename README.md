@@ -8,9 +8,11 @@
 
 ## Overview
 
-**MCMC-Explorer** is a from-scratch implementation of the Metropolis-Hastings MCMC algorithm designed to sample from challenging multi-modal distributions. This project demonstrates deep understanding of Markov Chain Monte Carlo methods, convergence diagnostics, and benchmarking against state-of-the-art Hamiltonian Monte Carlo (HMC).
-
-Built as part of a Master's in AI program, this project bridges theory and practice by implementing core algorithms while providing comprehensive visualizations and diagnostics.
+This repository contains from-scratch implementations of MCMC samplers:
+- **Metropolis-Hastings** with adaptive proposal tuning
+- **Gibbs sampler** with Metropolis-within-Gibbs
+- **Diagnostic tools** for convergence assessment
+- **Benchmarking** against Hamiltonian Monte Carlo via Mici
 
 ## ✨ Key Features
 
